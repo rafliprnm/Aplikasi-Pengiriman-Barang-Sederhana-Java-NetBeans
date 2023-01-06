@@ -81,23 +81,14 @@
                               <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtjumlah" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txtberat" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="tctbarang" max="32767" attributes="0"/>
+                                      <Component id="txtjumlah" max="32767" attributes="0"/>
                                       <Component id="txttotal" max="32767" attributes="0"/>
                                   </Group>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                  <Component id="txtpenerima" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -106,12 +97,25 @@
                                       <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
+                                  <EmptySpace pref="25" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txtharga" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="JenisPaket" alignment="1" pref="0" max="32767" attributes="0"/>
+                                      <Component id="JenisPengiriman" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="Pembayaran" pref="149" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="txtharga" max="32767" attributes="0"/>
-                                      <Component id="JenisPengiriman" max="32767" attributes="0"/>
-                                      <Component id="JenisPaket" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="Pembayaran" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="21" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="tctbarang" alignment="1" pref="149" max="32767" attributes="0"/>
+                                      <Component id="txtpenerima" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txtberat" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -230,7 +234,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Berat barang"/>
+            <Property name="text" type="java.lang.String" value="Berat barang (kg)"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtberat">
@@ -240,7 +244,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Jumlah barang"/>
+            <Property name="text" type="java.lang.String" value="Jumlahbarang(Kg)"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtjumlah">

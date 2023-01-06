@@ -6,6 +6,7 @@
 package View;
 
 import Controller.ListValidasiPaketController;
+import Controller.LoginController;
 
 /**
  *
@@ -125,6 +126,7 @@ public class HomeAdminView extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         LoginView loginV = new LoginView();
+        LoginController logcon = new LoginController(loginV);
         loginV.show();
         dispose();
     }//GEN-LAST:event_jButton2ActionPerformed

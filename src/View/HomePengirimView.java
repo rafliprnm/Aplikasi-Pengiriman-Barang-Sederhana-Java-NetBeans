@@ -6,6 +6,7 @@
 package View;
 
 import Controller.InputBarangController;
+import Controller.LoginController;
 import Controller.StatusPengirimanController;
 
 /**
@@ -145,6 +146,7 @@ public class HomePengirimView extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         LoginView loginV = new LoginView();
+        LoginController logcon = new LoginController(loginV);
         loginV.show();
         dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
