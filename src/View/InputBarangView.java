@@ -93,7 +93,7 @@ public class InputBarangView extends javax.swing.JFrame {
             }
         });
 
-        jLabel6.setText("Jumlahbarang(Kg)");
+        jLabel6.setText("Jumlah barang");
 
         txtjumlah.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,7 +107,7 @@ public class InputBarangView extends javax.swing.JFrame {
         txtalamat.setRows(5);
         jScrollPane1.setViewportView(txtalamat);
 
-        jLabel10.setText("Total Berat");
+        jLabel10.setText("Total Berat (Kg)");
 
         txttotal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -192,7 +192,7 @@ public class InputBarangView extends javax.swing.JFrame {
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel6)
                                     .addComponent(jLabel10))
-                                .addGap(15, 15, 15)
+                                .addGap(33, 33, 33)
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(txtjumlah)
                                     .addComponent(txttotal)))
